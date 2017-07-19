@@ -23,7 +23,7 @@ git checkout ==> Our repository go to the previous version
 
 git init ==> converts your directory to a git repository
 
-git status ==> can see the changes in the last commit 
+git status ==> can see the changes in the last commit
 
 
 
@@ -51,3 +51,10 @@ When writing a body, the blank line between the title and the body is required a
 
 The Footer
 The footer is optional and is used to reference issue tracker IDs.
+
+
+
+
+
+GIT Commmands Cheatsheet can be found here
+https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
