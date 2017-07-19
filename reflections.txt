@@ -1,0 +1,26 @@
+How might using version control make you more confident to make changes that could break something?
+
+Ans : I can use git checkout to go to the previous versions if something breaks in my current version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans : I have a prject and I want to use Git as a version control for that project
+
+
+
+
+
+
+git clone ==> download to our local directory
+
+git diff ==> shows difference between two commits
+
+git log ==> show all the commits we did
+
+git commit ==> save the file and create an ID for that version
+
+git checkout ==> Our repository go to the previous version
+
+git init ==> converts your directory to a git repository
+
+git status ==> can see the changes in the last commit 
