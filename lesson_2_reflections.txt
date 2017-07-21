@@ -10,13 +10,90 @@ Ans: it groups the files that could commit together. So, when we checkout other 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Ans: I can add multiple files to the stagging area and can have one commit per logic change
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Ans: when I hire a new partner in my project and I want to give him my code I ceate a branch and give acces to him So he work on the branch with out disturbing master
+Context switching. Master branch and Development branch. Experiental branch
+
 How do the diagrams help you visualize the branch structure?
+
+Ans: Awesome!!! that gave a crystal clear picture for me
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Ans: All the commits come under one single branch
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Ans:  Git's automatic merging can save the user a lot of time!  Especially when
+    multiple people are working together, merging everything manually could be
+    very painful.
+
+    The downside of automatic merging is that it's not perfect.  Merging the
+    coins branch with the master branch, which included color, resulted in
+    inconsistent visuals, where most items were colored but the coins were not.
+    Git could even make worse mistakes - for example, if one branch deleted a
+    function, and another branch added a call to that function, Git would merge
+    those together with no conflict and the resulting code would be broken.
+
+    Overall, Git's merging can save a lot of time, but it's important to always
+    double check that the code still works after doing a merge.
+
+
+
+
+
+
+
+
+
+master is the main branch in GIT
+
+git branch ==> shows all the branches in the repostory
+
+git branch NAME_OF_NEW_BRANCH ==> create a branch with name NAME_OF_NEW_BRANCH
+
+git checkout NAME_OF_NEW_BRANCH ==> makes the new branch as the one which we can do changes
+
+Some branches are not reachable graph comm1 <-  comm2 
+                                        |
+                                      comm3
+
+comm3 cant reach comm2 and comm2 is a branch and comm3 is a head
+
+In that case we make comm3 as a branch using 
+"git checkout -b new_branch_name"
+
+which is eqaul to 
+git branch new_branch_name
+git checkout new_branch_name
+
+git gc ==> If a branch is deleted and leaves some commits unreachable from existing branches, those commits will continue to be accessible by commit id, until Git’s garbage collection runs
+           This will happen automatically from time to time, unless you actively turn it off. You can also run this process manually with this command
+
+git branch -d coins ==> delete the branch coins
+
+Remember delete the branch only after it is merged with the master. It deletes only the label
+
+
+git merge --abort ==> restore your files to thier state b4 we started the merge 
+
+https://help.github.com/articles/dealing-with-line-endings/#platform-all
+The above link clearly explains how different OS platform newline chars are resposible for git conflicts
+
+
+
+
+
+
+
+
+
+
+
+

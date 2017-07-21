@@ -6,7 +6,8 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
 Ans : I have a prject and I want to use Git as a version control for that project
 
-
+GIT Commmands Cheatsheet can be found here
+https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
 
 
 
@@ -24,6 +25,14 @@ git checkout ==> Our repository go to the previous version
 git init ==> converts your directory to a git repository
 
 git status ==> can see the changes in the last commit
+
+git diff ==> gives diff between staging area and working directory
+
+git diff --staged ==> gives differece between staging area and recent commit in the repository
+
+git reset --hard ==> discard changes in the staging area and working directory
+
+
 
 
 
@@ -56,5 +65,4 @@ The footer is optional and is used to reference issue tracker IDs.
 
 
 
-GIT Commmands Cheatsheet can be found here
-https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
+
