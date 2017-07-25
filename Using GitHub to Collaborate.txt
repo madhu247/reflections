@@ -1,0 +1,51 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    When more than one people are woking on my project then I would create a repository and
+    and share my repository details to other so we can both work on same project on 2 diff 
+    computers at the same time 
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    If GitHub Automatically pulls, at the time of Pulling I mught be working on some files so
+    There would be a conflict
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fill in your answer here
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    I use comments on the program files. that you unnesssarily increase the size of my program
+    and tracking would be problem that if some has an intention olf adding a bug to the code
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    There might be errors in the new idea so that master will not get disturbed.
+
+
+git remote ==> to create a remote connection from my local repository to github
+
+git remote add origin(name of the remote connection in the local) 
+origin is optional name
+
+git push origin master ==> command to push our local repository to GiHub
+
+git pull origin master ==> command to pull the commits from GitHub to local repository
+
+I can fork a repository of other into my GitHub just by Clicking fork.
+if two people are working on the fork we can add colloboraters in github
+
+if there are errors in the pull request then if we push again then it will automatically raise a pull request 
+
+
+
